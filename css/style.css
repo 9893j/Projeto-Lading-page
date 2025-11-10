@@ -14,7 +14,7 @@
 }
 
 section.main{
-    background-image: url(images/bg.svg);
+    background-image: url(../images/bg.svg);
     background-position: center;
     background-size: cover;
     min-height: 600px;
@@ -124,7 +124,7 @@ section.porque-nos > .center > p{
 }
 
 section.cta{
-    background-image: url(images/banner_meio.svg);
+    background-image: url(../images/banner_meio.svg);
     background-size: cover;
     background-position: center;
     padding: 20px 10px;
@@ -212,6 +212,8 @@ section.beneficio{
 
 .img-beneficios img{max-width: 100%;}
 
+/*DEPOIMENTOS*/
+
 section.depoimentos{
     background-color: #FBFCFE;
     padding: 40px 0;
@@ -220,6 +222,10 @@ section.depoimentos{
 section.depoimentos > h1{
     text-align: center;
     font-size: 50px;
+}
+
+section.depoimentos > .center{
+    max-width: 900px;
 }
 
 .container-slider{
@@ -231,7 +237,7 @@ section.depoimentos > h1{
     float: left;
     background-color: white;
     width: 30%;
-    margin-right: 3%;
+    margin-right: -1%;
     text-align: center;
     padding: 10px 20px;
     border-radius: 10px;
@@ -242,7 +248,55 @@ section.depoimentos > h1{
     margin: 15px 0;
     color: #7E92AC;
     font-size: 14px;
+    text-align: center;
 }
+
+section.container-slider-single{
+    width: 30%;
+}
+
+/*SLICK*/
+.slick-slide{
+    margin-left: -27px;
+}
+.slick-list{
+    margin-left: -27px;
+}
+
+.slick-dotted ul{
+    display: block;
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+.slick-dotted li{
+    display: inline-block;
+    margin: 0 6px;
+}
+
+.slick-dotted button:focus{
+    outline: 0;
+}
+
+.slick-dotted li button{
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    color: #d8d8d8;
+    border-width: 0;
+    opacity: 1;
+    cursor: pointer;
+}
+
+li.slick-active button{
+    background: #373855;
+    color: #373855;
+}
+.slick-slide:focus{outline: none;}
+
+/*FIM SLICK*/
 
 section.contato{
     padding: 40px 0;
