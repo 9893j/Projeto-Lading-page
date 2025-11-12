@@ -1,4 +1,4 @@
-// form.js simples
+// form.js simples e testes com jQuery
 // $(function(){
 //     $('contato').submit(function(e){
 //         e.preventDefault(); //impede o envio padrão do formulário
