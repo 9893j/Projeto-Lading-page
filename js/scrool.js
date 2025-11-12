@@ -7,7 +7,7 @@ $(function() {
         if (destino.length) {
             $('html, body').animate({
                 scrollTop: destino.offset().top - 50 // ajuste a margem conforme o cabeçalho
-            }, 800); // duração da animação
+            }, 500); // duração da animação
         }
     });
 });

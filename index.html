@@ -20,7 +20,7 @@
                     <a href="#inicio">Início</a>
                     <a href="#nos">Por que nós?</a>
                     <a href="#depoimentos">Depoimentos</a>
-                    <a href="contato" class="contact-btn">Entre em Contato</a>
+                    <a href="#contato" class="contact-btn">Entre em Contato</a>
                 </div>
                 
             </div><!--menu-->
@@ -75,7 +75,7 @@
     <section class="cta">
         <h2>Vamos começar seu projeto?</h2>
         <h3>Fale com um consultor e tire sua idéia do papel.</h3>
-        <a href="contato">Entrar em Contato</a>
+        <a href="#contato">Entrar em Contato</a>
     </section><!--cta-->
 
     <section class="beneficio" id="beneficios">
@@ -87,7 +87,7 @@
                 <p><img src="images/checklist.svg" alt=""><span>Equipe qualificada. Nossos profissionais possuem vasta experiência nacional e no exterior.</span></p>
                 <p><img src="images/checklist.svg" alt=""><span>Acreditamos que trabalhos criativos são os que mais se destacam em meio a multidão. Saia do feijão com arroz.</span></p>
                 
-                <a href="contato">Entrar em Contato</a>
+                <a href="#contato">Entrar em Contato</a>
             </div><!--lista-beneficio-->
             <div class="img-beneficios">
                 <img src="images/mackbook.png" alt="">
@@ -134,11 +134,14 @@
     <section class="contato" id="contato">
         <h1>Entre em Contato</h1>
         <div style="max-width: 900px;" class="center">
-            <form method="post">
-                <input type="text" placeholder="Seu nome..."/>
-                <input type="email" placeholder="Seu e-mail"/>
-                <textarea placeholder="Sua Mensagem..."></textarea>
+            <form method="post" id="post">
+                <input type="text" id="nome" placeholder="Seu nome..."/>
+                <input type="email" id="email" placeholder="Seu e-mail"/>
+                <textarea id="Mensagem" placeholder="Sua Mensagem..."></textarea>
                 <input type="submit" name="acao" value="Enviar">
+
+                <p id="Mensagem-erro" style="color:red;"></p>
+                <p id="Mensagem-sucesso" style="color: green;"></p>
             </form>
         </div>
     </section><!--contato-->
@@ -149,7 +152,7 @@
                     <a href="#inicio">Início</a>
                     <a href="#nos">Por que nós?</a>
                     <a href="#depoimentos">Depoimentos</a>
-                    <a href="contato" class="contact-btn">Entre em Contato</a>
+                    <a href="#contato" class="contact-btn">Entre em Contato</a>
             </div>
         </div>
     </footer>
